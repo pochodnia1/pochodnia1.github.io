@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(240, 56%, 87%);
+}
+#navigation{
+    background-color: hsl(45, 48%, 22%);
+    padding: 10px 10px;
+    margin: -8px -8px;
+}
+#navigation h1{
+    text-align: center;
+    font-family: Verdana;
+    color: rgb(255, 255, 255);
+}
+button{
+    padding: 10px;
+    background-color: rgb(116, 138, 87);
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+}
+a{
+    text-decoration: underline;
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+}
+#DownloadButton{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+#aVersions{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+.aOthers{
+    display: block;
+    text-align: center;
+}
