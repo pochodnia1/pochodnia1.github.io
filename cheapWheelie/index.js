@@ -1,4 +1,12 @@
-function downloadFile(){
+function _1_5_0(){
+    const link = document.createElement('a');
+    link.href = 'Versions/1.5.0/CheapWheelie-1_0_4.apk'
+    link.download = 'CheapWheelie-1_5_0.apk'
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+function _1_4_0(){
     const link = document.createElement('a');
     link.href = 'Versions/1.4.0/CheapWheelie-1_0_4.apk'
     link.download = 'CheapWheelie-1_4_0.apk'
